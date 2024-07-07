@@ -3434,11 +3434,6 @@ video {
   color: rgb(24 24 27 / var(--tw-text-opacity));
 }
 
-.text-primary-700 {
-  --tw-text-opacity: 1;
-  color: rgb(8 151 156 / var(--tw-text-opacity));
-}
-
 .text-opacity-40 {
   --tw-text-opacity: 0.4;
 }
@@ -4231,30 +4226,6 @@ EmojiSymbols;
   background-color: rgb(22 28 38 / var(--tw-bg-opacity));
 }
 
-.group:hover .group-hover\:text-gray-400\/60 {
-  color: rgb(147 164 193 / 0.6);
-}
-
-.group:hover .group-hover\:text-gray-600\/60 {
-  color: rgb(83 106 144 / 0.6);
-}
-
-.group:hover .group-hover\:text-gray-800\/60 {
-  color: rgb(33 47 64 / 0.6);
-}
-
-.group:hover .group-hover\:text-gray-100\/60 {
-  color: rgb(229 233 240 / 0.6);
-}
-
-.group:hover .group-hover\:text-primary-600\/60 {
-  color: rgb(10 189 195 / 0.6);
-}
-
-.group:hover .group-hover\:text-primary-700\/60 {
-  color: rgb(8 151 156 / 0.6);
-}
-
 .group:hover .group-hover\:text-primary-600 {
   --tw-text-opacity: 1;
   color: rgb(10 189 195 / var(--tw-text-opacity));
@@ -4358,6 +4329,11 @@ EmojiSymbols;
   color: rgb(159 247 250 / var(--tw-text-opacity));
 }
 
+.dark\:text-primary-300:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(81 241 246 / var(--tw-text-opacity));
+}
+
 .dark\:text-primary-400:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(42 237 244 / var(--tw-text-opacity));
@@ -4371,11 +4347,6 @@ EmojiSymbols;
 .dark\:text-zinc-200:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(228 228 231 / var(--tw-text-opacity));
-}
-
-.dark\:text-primary-300:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(81 241 246 / var(--tw-text-opacity));
 }
 
 .dark\:placeholder-gray-400:is(.dark *)::-moz-placeholder {
