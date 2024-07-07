@@ -13,6 +13,9 @@
                     <p class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
                         {{ .Site.Params.long_description}}
                     </p>
+                    <button type="cta1" class="block px-5 py-3 text-base font-large text-gray-900 bg-primary-600 border border-transparent rounded-md shadow hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10" onclick="location.href = {{ .Site.Params.forward }}" style="width:200px">
+                        {{ .Site.Params.Button }}
+                    </button>
                 </div>
                 <div class="col-span-6">
                     {{ $hero := resources.GetMatch "images/pages/tailbliss-rocket-indigo.png" }}
@@ -30,7 +33,7 @@
 
     <!-- More main page content here... -->
 
-    <!-- Our mission section -->
+    <!-- Vision and mission -->
     <div class="relative my-4">
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
             <div class="relative sm:py-8 lg:py-0">
@@ -67,6 +70,9 @@
                                 {{ .text }}
                             </p>
                             {{ end }}
+                          <button type="cta2" class="block px-5 py-3 text-base font-medium text-gray-200 bg-gray-700 border border-transparent rounded-md shadow hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10" onclick="location.href ={{ .Site.Params.P1.forward }}" style="width:200px">
+                              {{ .Site.Params.P1.Button }}
+                          </button>
                         </div>
                     </div>
                 </div>
@@ -74,7 +80,7 @@
         </div>
     </div>
 
-    <!-- JITsection -->
+    <!-- The rationale behind Konsuln -->
     <div class="overflow-hidden sm:pt-6 lg:relative">
         <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-12 lg:px-8">
             <div>
@@ -89,6 +95,9 @@
                         </p>
                         {{ end }}
                         </p>
+                        <button type="cta3" class="block px-5 py-3 text-base font-medium text-gray-200 bg-gray-700 border border-transparent rounded-md shadow hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10" onclick="location.href = {{ .Site.Params.P2.forward }}" style="width:200px">
+                            {{ .Site.Params.P2.Button }}
+                        </button>
                     </div>
                 </div>
             </div>
@@ -119,7 +128,7 @@
     </div>
 
 
-    <!-- Sponsors section -->
+    <!-- Partners section -->
     <div class="max-w-md px-4 mx-auto md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-24">
             <div class="mt-12 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
@@ -254,7 +263,7 @@
                         </p>
                         {{ end }}
                     </div>
-                    <form action="{{ .Site.Params.P5.Action }}" class="mt-12 sm:mx-auto sm:flex sm:max-w-lg">
+                    <form action="{{ .Site.Params.P5.Action }}" class="mt-12 sm:mx-auto sm:flex sm:max-w-lg" method="POST">
                         <div class="flex-1 min-w-0">
                             <label for="cta-email" class="sr-only">{{ .Site.Params.P5.Label }}</label>
                             <input id="cta-email" type="email" class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500" placeholder="{{ .Site.Params.P5.Placeholder }}">

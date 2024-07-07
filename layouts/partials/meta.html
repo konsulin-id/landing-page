@@ -2,6 +2,7 @@
     {{else}} {{ .Title }} | {{ .Site.Title }} {{end}}
 </title>
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta name="keywords" content="{{ if .Keywords }}{{ delimit .Keywords ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}">
 <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
