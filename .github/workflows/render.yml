@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16' # Use Node.js 16 to ensure compatibility
 
       - name: Install dependencies
         run: npm install
@@ -29,6 +29,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true # Ensure the extended version is used
 
       - name: Build the site
         run: npm run build
