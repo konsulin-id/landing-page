@@ -1,4 +1,5 @@
 {{- $respSizes := slice "300" "450" "600" "750" "900" "1050" "1200" "1350" "1500" -}}
+
 {{/*
 	These are breakpoints, in pixels.
 	Adjust these to fit your use cases.
@@ -12,16 +13,20 @@
 	especially if you have a really
 	large number of original images.)
 */}}
+
 {{- $imgBase := "images/" -}}
+
 {{/*
 	This will be from top-level `assets/images`,
 	where we'll keep all images for Hugo's
 	processing (this makes them "global
 	resources," as noted in the documentation).
 */}}
+
 {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src")) -}}
 {{- $alt := .Get "alt" -}}
 {{- $divClass := "" -}}{{/* Init'g */}}
+
 {{/*
 	The styling in $imgClass, below, makes
 	an image fill the container horizontally
@@ -29,20 +34,26 @@
 	for that, and then fade in for the LQIP effect.
 	Feel free to adjust your CSS/SCSS as desired.
 */}}
+
 {{- $imgClass := "w-full h-auto animate-fade" -}}
 {{- $dataSzes := "(min-width: 1024px) 100vw, 50vw" -}}
+
 {{/*
 	Now we'll create the 20-pixel-wide LQIP
 	and turn it into Base64-encoded data, which
 	is better for performance and caching.
 */}}
+
 {{- $LQIP_img := $src.Resize "20x jpg" -}}
 {{- $LQIP_b64 := $LQIP_img.Content | base64Encode -}}
+
 {{/*
 	$CFPstyle is for use in styling
 	the div's background, as you'll see shortly.
 */}}
+
 {{- $CFPstyle := printf "%s%s%s" "background: url(data:image/jpeg;base64," $LQIP_b64 "); background-size: cover; background-repeat: no-repeat;" -}}
+
 {{/*
 	Then, we create a 600-pixel-wide JPG
 	of the image. This will serve as the
@@ -50,7 +61,9 @@
 	of browsers that don't understand the
 	HTML `picture` tag.
 */}}
+
 {{- $actualImg := $src.Resize "600x jpg" -}}
+
 {{/*
 	Now we'll handle the LQIP background for the
 	div that will contain the image content; the
@@ -69,38 +82,42 @@
 	feel free to use only the second option and
 	avoid the conditional altogether.
 */}}
+
 {{- $imgBd5 := md5 $src -}}
 {{- if eq .Site.Params.Host "CFP" -}}
-<style>
-    .imgB- {
-            {
-            $imgBd5
-        }
-    }
 
-        {
-            {
-                {
-                $CFPstyle | safeCSS
-            }
-        }
+<style>
+  .imgB-
+  {
+    {
+      $imgBd5
     }
+  }
+
+  {
+    {
+      { $CFPstyle | safeCSS }
+    }
+  }
 </style>
+
 <div class="relative imgB-{{ $imgBd5 }} bg-center">
-    {{- else -}}
-    <div class="relative bg-center" style="{{ $CFPstyle | safeCSS }}">
-        {{- end -}}
-        {{/*
-	Now we'll build the `picture` which modern
-	browsers use to decide which image, and
-	which format thereof, to show. Remember to
-	put `webp` first, since the browser will use
-	the first format it **can** use, and WebP files
-	usually are smaller. After WebP, the fallback
-	is the universally safe JPG format.
-*/}}
-        <picture>
-            <source type="image/webp" srcset="
+  {{- else -}}
+  <div class="relative bg-center" style="{{ $CFPstyle | safeCSS }}">
+    {{- end -}}
+
+    {{/*
+      Now we'll build the `picture` which modern
+      browsers use to decide which image, and
+      which format thereof, to show. Remember to
+      put `webp` first, since the browser will use
+      the first format it **can** use, and WebP files
+      usually are smaller. After WebP, the fallback
+      is the universally safe JPG format.
+    */}}
+
+    <picture>
+      <source type="image/webp" srcset="
 			{{- with $respSizes -}}
 				{{- range $i, $e := . -}}
 					{{- if ge $src.Width . -}}
@@ -116,7 +133,8 @@
 					{{- end -}}
 				{{- end -}}
 			{{- end -}}" \ sizes="{{ $dataSzes }}" />
-            <img class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}"
-                height="{{ $src.Height }}" alt="{{ $alt }}" loading="lazy" />
-        </picture>
-    </div>
+      <img class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}" alt="{{ $alt }}" loading="lazy" />
+    </picture>
+
+  </div>
+</div>
