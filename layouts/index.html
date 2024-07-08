@@ -3,11 +3,11 @@
   <div class="bg-gray-200 dark:bg-gray-900">
     <div class="max-w-screen-xl px-4 py-8 mx-auto">
       <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
-        <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
+        <div class="col-span-6 px-4 sm:mb-6 lg:text-left lg:mb-0">
           <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
             {{ .Site.Title }}
           </h1>
-          <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
+          <h2 class="pb-2 text-2xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
             {{ .Site.Params.Moto }}
           </h2>
           <p class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
@@ -36,9 +36,11 @@
   <!-- Vision and mission -->
   <div class="relative my-4">
     <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+
       <div class="relative sm:py-8 lg:py-0">
         <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
-          <div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72"></div><svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
+          <div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72"></div>
+          <svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
             <defs>
               <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
                 <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"></rect>
@@ -58,6 +60,7 @@
           </div>
         </div>
       </div>
+
       <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
         <div class="md:pt-12 sm:pt-6 lg:pt-20">
           <h2 class="text-3xl font-bold tracking-tight text-primary-600 dark:text-primary-100 sm:text-4xl">
@@ -77,55 +80,60 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 
-  <!-- The rationale behind Konsuln -->
-  <div class="overflow-hidden sm:pt-6 lg:relative">
-    <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-12 lg:px-8">
-      <div>
-        <div class="md:mt-8">
-          <div class="mt-6 sm:max-w-xl">
-            <h2 class="text-3xl font-extrabold tracking-tight text-primary-600 dark:text-primary-100 sm:text-4xl md:mt-16">
-              {{ .Site.Params.P2.Heading }}
-            </h2>
-            {{ range .Site.Params.P2.Content }}
-            <p class="pb-12 mt-6 text-lg text-gray-900 dark:text-white">
-              {{ .text }}
-            </p>
-            {{ end }}
-            <button type="cta3" class="block px-5 py-3 text-base font-medium text-gray-200 bg-gray-700 border border-transparent rounded-md shadow hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10" onclick="location.href = {{ .Site.Params.P2.forward }}" style="width:200px">
-              {{ .Site.Params.P2.Button }}
-            </button>
+  <!-- The rationale behind Konsulin -->
+  <div class="relative my-4">
+    <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+
+      <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
+        <div class="md:pt-12 sm:pt-6 lg:pt-20">
+          <h2 class="text-3xl font-bold tracking-tight text-primary-600 dark:text-primary-100 sm:text-4xl">
+            {{ .Site.Params.P2.Heading }}
+          </h2>
+          <div class="mt-6 text-gray-900 dark:text-white">
+            <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
+              {{ range .Site.Params.P2.Content }}
+              <p class="text-lg text-gray-900 dark:text-white">
+                {{ .text }}
+              </p>
+              {{ end }}
+             <button type="cta2" class="block px-5 py-3 text-base font-medium text-gray-200 bg-gray-700 border border-transparent rounded-md shadow hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10" onclick="location.href ={{ .Site.Params.P1.forward }}" style="width:200px">
+               {{ .Site.Params.P2.Button }}
+             </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
-      <div class="md:py-12 sm:relative sm:mt-12 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <div class="hidden sm:block">
-          <div class="absolute inset-y-0 w-screen left-1/2 rounded-l-3xl bg-gray-50 dark:bg-gray-900/10 lg:left-80 lg:right-0 lg:w-full"></div><svg class="absolute -mr-3 top-8 right-1/2 lg:left-0 lg:m-0" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
+
+      <div class="relative sm:py-8 lg:py-0">
+        <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:left-0 lg:w-screen">
+          <div class="absolute inset-y-0 w-screen right-1/2 rounded-l-3xl bg-gray-50 dark:bg-gray-900/10 lg:-right-80"></div>
+          <svg class="absolute -ml-3 top-8 left-1/2 lg:-left-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
             <defs>
-              <pattern id="837c3e70-6c3a-44e6-8854-cc48c737b659" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+              <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
                 <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"></rect>
               </pattern>
             </defs>
-            <rect width="404" height="392" fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)"></rect>
+            <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"></rect>
           </svg>
         </div>
-        <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
-          {{ $p2image := resources.Get .Site.Params.P2.Image }}
-          {{ with $p2image }}
-          {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-          <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
-          {{ end }}
-          {{ end }}
-
+        <div class="relative w-full h-auto px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 lg:py-20">
+          <div class="overflow-hidden shadow-xl rounded-2xl">
+            {{ $p2image := resources.Get .Site.Params.P2.Image }}
+            {{ with $p2image }}
+            {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
+            <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="w-full h-auto" alt="P2" loading="lazy" />
+            {{ end }}
+            {{ end }}
+          </div>
         </div>
       </div>
+
     </div>
   </div>
-
 
   <!-- Partners section -->
   <div class="max-w-md px-4 mx-auto md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">

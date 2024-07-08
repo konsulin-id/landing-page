@@ -3230,10 +3230,6 @@ video {
   padding-bottom: 24rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -4475,10 +4471,6 @@ html {
     max-width: 32rem;
   }
 
-  .sm\:max-w-xl {
-    max-width: 36rem;
-  }
-
   .sm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -4551,14 +4543,6 @@ html {
 
   .md\:mt-12 {
     margin-top: 3rem;
-  }
-
-  .md\:mt-16 {
-    margin-top: 4rem;
-  }
-
-  .md\:mt-8 {
-    margin-top: 2rem;
   }
 
   .md\:inline {
@@ -4674,10 +4658,6 @@ html {
     position: absolute;
   }
 
-  .lg\:relative {
-    position: relative;
-  }
-
   .lg\:inset-y-0 {
     top: 0px;
     bottom: 0px;
@@ -4709,6 +4689,30 @@ html {
 
   .lg\:top-12 {
     top: 3rem;
+  }
+
+  .lg\:right-80 {
+    right: 20rem;
+  }
+
+  .lg\:-left-8 {
+    left: -2rem;
+  }
+
+  .lg\:-left-20 {
+    left: -5rem;
+  }
+
+  .lg\:-right-20 {
+    right: -5rem;
+  }
+
+  .lg\:-right-40 {
+    right: -10rem;
+  }
+
+  .lg\:-right-80 {
+    right: -20rem;
   }
 
   .lg\:m-0 {
