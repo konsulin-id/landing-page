@@ -1,0 +1,41 @@
+NAV(1)                         General Commands Manual                        NAV(1)
+
+NAME
+       nav - generate a responsive navigation bar with dropdowns and theme 
+       toggle for Hugo
+
+SYNOPSIS
+       {{ partial "nav.html" . }}
+
+DESCRIPTION
+       This partial template creates a responsive navigation bar with dropdown 
+       menus and a theme toggle button for dark mode and light mode. The 
+       navigation bar is styled with Tailwind CSS and uses Alpine.js for 
+       interactivity.
+
+PARAMETERS
+       .Site.Title
+              The title of the website, displayed next to the site logo.
+
+       site.Menus.main
+              The main menu items defined in the site's configuration.
+
+       .URL
+              The URL for each menu item.
+
+       .Name
+              The name of each menu item.
+
+       .Title
+              The title attribute for each menu item, defaulting to the name.
+
+FILES
+       The partial template file is located at:
+              /layouts/partials/nav.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions.  There is 
+       NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+       PURPOSE.
+
+nav 1.0                          July 2024                                 NAV(1)

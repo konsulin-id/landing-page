@@ -1,0 +1,66 @@
+POSTS-TEMPLATE(1)                 General Commands Manual                POSTS-TEMPLATE(1)
+
+NAME
+       posts-template - generate a grid layout for displaying blog posts in Hugo
+
+SYNOPSIS
+       {{ partial "posts-template.html" . }}
+
+DESCRIPTION
+       This partial template creates a grid layout to display blog posts in a
+       Hugo website. Each post is represented as a card with an optional
+       featured image, title, summary, tags, author information, publication
+       date, and estimated reading time. The layout is responsive and styled
+       using Tailwind CSS.
+
+PARAMETERS
+       .Paginator.Pages
+              The list of pages (blog posts) to display in the grid. This is
+              provided by Hugo's paginator.
+
+       .Permalink
+              The URL of the blog post.
+
+       .Params.featured_image
+              Optional parameter for the featured image of the blog post.
+
+       resources.Get
+              Hugo's resource management function used to fetch images.
+
+       .Title   The title of the blog post.
+
+       .Params.summary
+              A summary or excerpt of the blog post content.
+
+       .GetTerms
+              Hugo's function to retrieve terms (tags) associated with the blog
+              post.
+
+       .Permalink
+              The URL of the tag page.
+
+       .LinkTitle
+              The title of the tag.
+
+       .Params.author
+              The author of the blog post.
+
+       .Params.authorimage
+              Optional parameter for the author's image.
+
+       .Date    The publication date of the blog post.
+
+       countwords
+              Hugo's function to count words in the blog post content.
+
+FILES
+       The partial template file is located at:
+              /layouts/partials/posts-template.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions. There is
+       NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR
+       PURPOSE.
+
+posts-template 1.0                   July 2024                       POSTS-TEMPLATE(1)
+

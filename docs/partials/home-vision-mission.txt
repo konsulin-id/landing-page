@@ -1,0 +1,112 @@
+HOME-VISION-MISSION(1)              General Commands Manual             HOME-VISION-MISSION(1)
+
+NAME
+       home-vision-mission - Hugo partial template for Vision and Mission section
+
+SYNOPSIS
+       {{ partial "home-vision-mission.html" . }}
+
+DESCRIPTION
+       This partial template generates a section in Hugo websites explaining the
+       Vision and Mission. It includes text, a call-to-action button, and an image
+       with background shapes.
+
+VISION AND MISSION SECTION
+       <div class="relative my-4">
+         Sets up the section with relative positioning and margin.
+
+         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+           Uses a grid layout for responsive design with two columns.
+
+           <!-- Left: Image + Background Shape + SVG -->
+           <div class="relative sm:py-8 lg:py-0">
+             Contains the left column with padding for different screen sizes.
+
+             <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
+               Sets up a background shape for the left column.
+
+               <div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72">
+                 Sets background styling for the left column.
+               </div>
+               Displays an SVG pattern as part of the background.
+
+               <svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392"
+                 fill="none" viewBox="0 0 404 392" loading="lazy">
+                 <defs>
+                   Defines a pattern for the SVG.
+
+                   <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20"
+                     patternUnits="userSpaceOnUse">
+                     <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60"
+                       fill="currentcolor"></rect>
+                   </pattern>
+                 </defs>
+                 Displays a rectangle filled with a pattern defined by the pattern ID.
+
+                 <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"></rect>
+               </svg>
+             </div>
+             Contains the image associated with the Vision and Mission section.
+
+             <div class="relative w-full h-auto px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 lg:py-20">
+               Sets overflow and shadow styling for the image.
+
+               <div class="overflow-hidden shadow-xl rounded-2xl">
+                 Loads and displays the image specified in the configuration.
+
+                 {{ $p1image := resources.Get .Site.Params.P1.Image }}
+                 {{ with $p1image }}
+                 {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
+                 <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
+                   class="w-full h-auto" alt="P1" loading="lazy" />
+                 {{ end }}
+                 {{ end }}
+               </div>
+             </div>
+           </div>
+
+           <!-- Right: Text + CTA Button -->
+           <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
+             Contains the right column with maximum width and padding.
+
+             <div class="md:pt-12 sm:pt-6 lg:pt-20">
+               Sets padding for different screen sizes.
+
+               <h2 class="text-3xl font-bold tracking-tight text-primary-600 dark:text-primary-100 sm:text-4xl">
+                 Displays the heading for the Vision and Mission section.
+
+                 {{ .Site.Params.P1.Heading }}
+               </h2>
+               {{ range .Site.Params.P1.Content }}
+               Displays content associated with the Vision and Mission section.
+
+               <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
+                 <p class="text-lg text-gray-900 dark:text-white">
+                   {{ .text }}
+                 </p>
+               </div>
+               {{ end }}
+               Displays a call-to-action button for the Vision and Mission section.
+
+               <button type="cta2" class="block px-5 py-3 text-base font-medium text-gray-200 bg-gray-700
+                 border border-transparent rounded-md shadow hover:bg-primary-700 focus:outline-none
+                 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10"
+                 onclick="location.href ={{ .Site.Params.P1.forward }}" style="width:200px">
+                 {{ .Site.Params.P1.Button }}
+               </button>
+             </div>
+           </div>
+         </div>
+       </div>
+
+FILES
+       The partial template file is located at:
+              /layouts/partials/home-vision-mission.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions.  There is 
+       NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+       PURPOSE.
+
+home-vision-mission 1.0           July 2024                  HOME-VISION-MISSION(1)
+

@@ -1,0 +1,46 @@
+HOME-HEADER(1)                  General Commands Manual                 HOME-HEADER(1)
+
+NAME
+       home-header - generate a responsive header section for Hugo
+
+SYNOPSIS
+       {{ partial "home-header.html" . }}
+
+DESCRIPTION
+       This partial template creates a responsive header section for a Hugo 
+       website's homepage. The header includes a large title, a subtitle, a 
+       description, a call-to-action button, and an image. The layout is 
+       designed to be responsive and is styled using Tailwind CSS.
+
+PARAMETERS
+       .Site.Title
+              The title of the website, displayed prominently in the header 
+              section.
+
+       .Site.Params.Moto
+              A short, catchy tagline or motto of the website.
+
+       .Site.Params.long_description
+              A longer description providing more detail about the website's 
+              purpose or offerings.
+
+       .Site.Params.Button
+              The text displayed on the call-to-action button.
+
+       .Site.Params.forward
+              The URL to which the call-to-action button redirects when 
+              clicked.
+
+       resources.GetMatch
+              A Hugo function used to fetch the specified image resource.
+
+FILES
+       The partial template file is located at:
+              /layouts/partials/home-header.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions.  There is 
+       NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+       PURPOSE.
+
+home-header 1.0                    July 2024                     HOME-HEADER(1)

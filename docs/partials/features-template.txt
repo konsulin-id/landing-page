@@ -1,0 +1,45 @@
+FEATURES-TEMPLATE(1)             General Commands Manual            FEATURES-TEMPLATE(1)
+
+NAME
+       features-template - generate a features template section for Hugo
+
+SYNOPSIS
+       {{ partial "features-template.html" . }}
+
+DESCRIPTION
+       This partial template creates a section for displaying featured posts or
+       articles on a Hugo website. Each featured post includes an image, title,
+       summary, tags, author information, and publication date. The layout is
+       responsive and styled using Tailwind CSS.
+
+PARAMETERS
+       .Paginator.Pages
+              An array of pages to iterate through, typically used for paginated
+              content.
+
+       .Params.featured_image
+              The URL or path to the featured image associated with the post.
+
+       .Params.summary
+              A brief summary or excerpt of the post's content.
+
+       .GetTerms "tags"
+              Retrieves tags associated with the post.
+
+       .Params.author
+              The name of the post author.
+
+       .Params.authorimage
+              The URL or path to the author's profile image.
+
+FILES
+       The partial template file is located at:
+              /layouts/partials/features-template.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions.  There is 
+       NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+       PURPOSE.
+
+features-template 1.0               July 2024                  FEATURES-TEMPLATE(1)
+

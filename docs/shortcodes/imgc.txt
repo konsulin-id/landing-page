@@ -1,0 +1,81 @@
+IMGC(1)                       General Commands Manual                      IMGC(1)
+
+NAME
+       imgc - handle responsive images with Low-Quality Image Placeholders 
+       (LQIP) for a better user experience
+
+SYNOPSIS
+       {{< imgc src="example.jpg" alt="An example image" >}}
+
+DESCRIPTION
+       This shortcode generates a responsive image with Low-Quality Image 
+       Placeholders (LQIP) to enhance the user experience. It creates a `picture`
+       element with multiple sources for different image formats and sizes, 
+       ensuring optimal quality and performance.
+
+PARAMETERS
+       src
+           The path to the image file within the assets/images directory. 
+           (string)
+
+       alt
+           The alt text for the image, which is important for accessibility. 
+           (string)
+
+EXAMPLES
+       Example usage of the shortcode:
+              {{< imgc src="example.jpg" alt="An example image" >}}
+
+       This will generate the following HTML:
+              <div class="relative bg-center" style="background: 
+              url(data:image/jpeg;base64,...); background-size: cover; 
+              background-repeat: no-repeat;">
+                <picture>
+                  <source type="image/webp" srcset="/path/to/image-300.webp 
+                  300w, /path/to/image-450.webp 450w, ..." sizes="(min-width: 
+                  1024px) 100vw, 50vw" />
+                  <source type="image/jpeg" srcset="/path/to/image-300.jpg 
+                  300w, /path/to/image-450.jpg 450w, ..." sizes="(min-width: 
+                  1024px) 100vw, 50vw" />
+                  <img class="w-full h-auto animate-fade" 
+                  src="/path/to/image-600.jpg" width="originalWidth" 
+                  height="originalHeight" alt="An example image" loading="lazy" />
+                </picture>
+              </div>
+
+EXPLANATION
+       Breakpoints
+              The shortcode uses predefined breakpoints to generate multiple image
+              sizes for different screen widths.
+
+       Base Image Path
+              Images are located in the assets/images directory.
+
+       LQIP
+              Generates a 20-pixel-wide low-quality image placeholder, which is 
+              encoded in Base64 and used as the background for a div, providing a 
+              preview while the full image loads.
+
+       Fallback Image
+              A 600-pixel-wide JPG image is created as a fallback for browsers that 
+              do not support the picture element.
+
+       Picture Element
+              Contains source elements for WebP and JPG formats, with srcset
+              attributes for responsive images, ensuring the browser loads the most 
+              appropriate image size and format.
+
+       Cloudflare Pages Conditional
+              If the site is hosted on Cloudflare Pages, the LQIP background is 
+              handled via a CSS class instead of inline styling to comply with 
+              strict Content Security Policies (CSP).
+
+FILES
+       The shortcode file is located at:
+              /layouts/shortcodes/imgc.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions.  There is NO 
+       warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+imgc 1.0                           July 2024                              IMGC(1)

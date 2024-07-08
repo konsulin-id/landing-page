@@ -1,0 +1,135 @@
+HOME-BLOG(1)                    General Commands Manual                   HOME-BLOG(1)
+
+NAME
+       home-blog - Hugo partial template for home blog section
+
+SYNOPSIS
+       {{ partial "home-blog.html" . }}
+
+DESCRIPTION
+       This partial template is used in Hugo websites to generate the home blog
+       section. It includes a header with customizable heading and content,
+       followed by a grid layout displaying blog posts.
+
+HEADER SECTION
+       <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
+         Displays a decorative background element and sets up the layout for the
+         header.
+
+         <div class="absolute inset-0">
+           <div class="bg-gray-200 dark:bg-gray-900/50 h-1/3 sm:h-2/3"></div>
+         </div>
+         Adds a background overlay to the header.
+
+         <div class="relative px-2 mx-auto max-w-7xl">
+           <div class="text-center">
+             <h2 class="text-3xl font-black tracking-tight text-primary-600 dark:text-primary-100 sm:text-4xl">
+               {{ .Site.Params.P4.Heading }}
+             </h2>
+             Customizes the heading for the blog section.
+
+             {{ range .Site.Params.P4.Content }}
+             <p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 dark:text-gray-300 sm:mt-4">
+               {{ .text }}
+             </p>
+             Displays customizable content below the heading.
+             {{ end }}
+           </div>
+         </div>
+       </div>
+
+GRID LAYOUT SECTION
+       <div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 md:px-1.5">
+         <div class="px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200">
+           Sets up the grid layout for displaying blog posts.
+
+           <div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
+             {{ range (.Paginator 3).Pages }}
+             Iterates over blog posts, displaying each post in a grid layout.
+
+             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
+               <a href="{{.Permalink}}">
+                 Links each blog post to its permalink.
+
+                 {{ with .Params.featured_image }}
+                 {{ with resources.Get . }}
+                 Loads and resizes the featured image for the blog post.
+
+                 <img src="{{ (.Resize "500x webp q90").RelPermalink }}" class="object-fill overflow-hidden rounded-t-lg"
+                   width="100%" height="" loading="lazy" alt="{{ .Title }}" />
+                 Displays the resized featured image with proper attributes.
+                 {{ end }}
+                 {{ end }}
+               </a>
+               <div class="p-6">
+                 <div class="flex-1">
+                   <a href="{{.Permalink}}"
+                     class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
+                     Displays the title of the blog post with styling.
+                   {{ .Title }}
+                   </a>
+                   <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
+                     Displays a summary of the blog post content.
+                   {{ .Params.summary }}
+                   </p>
+                 </div>
+                 <div class="flex pt-6 font-medium text-primary-600 dark:text-primary-100 text-md">
+                   <span class="pr-2 font-black">Tags:</span>
+                   Displays tags associated with the blog post.
+
+                   {{ range $elem_index, $elem_val := (.GetTerms "tags") }}
+                   {{- if gt $elem_index 0 }}, {{ end -}}
+                   <a href="{{ .Permalink }}"
+                     class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">
+                     {{ .LinkTitle }}
+                   Displays each tag associated with the blog post.
+                   {{- end -}}
+                   </a>
+                 </div>
+                 <div class="flex items-center mt-6">
+                   <div class="flex-shrink-0">
+                     <span class="sr-only">{{ .Params.author }}</span>
+                     {{ with .Params.authorimage }}
+                     {{ with resources.Get . }}
+                     {{ $authorimage := (.Resize "400x webp").RelPermalink }}
+                     <img class="w-10 h-10 rounded-full" src="{{ $authorimage }}" alt="">
+                     Displays the author's image with appropriate attributes.
+                     {{ end }}
+                     {{ end }}
+                   </div>
+                   <div class="pt-1 ml-3">
+                     <p class="text-sm font-medium text-gray-900 dark:text-white">
+                       Displays the author's name.
+                     {{ .Params.author }}
+                     </p>
+                     <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
+                       <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                         Displays the publication date of the blog post.
+                       {{ .Date.Format "2006-01-02" }}
+                       </time>
+                       <span aria-hidden="true">&middot;</span>
+                       <span>
+                         Displays the estimated reading time of the blog post.
+                       {{ math.Round (div (countwords .Content) 220.0) }} min read
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             {{ end }}
+           </div>
+         </div>
+       </div>
+
+FILES
+       The partial template file is located at:
+              /layouts/partials/home-blog.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions.  There is 
+       NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+       PURPOSE.
+
+home-blog 1.0                    July 2024                               HOME-BLOG(1)
+

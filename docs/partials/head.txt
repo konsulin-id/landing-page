@@ -1,0 +1,69 @@
+HEAD(1)                        General Commands Manual                       HEAD(1)
+
+NAME
+       head - generate head section for Hugo websites
+
+SYNOPSIS
+       {{ partial "head.html" . }}
+
+DESCRIPTION
+       This partial template generates the head section for Hugo websites,
+       including meta tags, viewport settings, favicon, font links, theme color
+       settings, and CSS stylesheet inclusion. It also includes JavaScript for
+       handling dark mode preference using localStorage.
+
+META TAGS
+       <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+              Specifies the character encoding for the document.
+
+       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+              Ensures the highest compatibility for Internet Explorer and Chrome.
+
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              Sets the viewport to the device's width and scales the page
+              accordingly.
+
+       <link rel="icon" type="image/png" href="/favicon/favicon.png" />
+              Specifies the favicon for the website.
+
+       <link rel="manifest" href="/favicon/site.webmanifest" />
+              Points to the web app manifest file for progressive web apps.
+
+       <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+              Configures the mask icon for Safari's pinned tabs.
+
+       <link rel="preconnect" href="https://fonts.googleapis.com" />
+              Preconnects to Google Fonts API to reduce latency.
+
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+              Preconnects to Google Fonts server with crossorigin attribute.
+
+       <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
+              Links to the Plus Jakarta Sans font family from Google Fonts.
+
+       <meta name="msapplication-TileColor" content="#da532c" />
+              Specifies the tile color for Windows Start menu tiles.
+
+       <meta name="theme-color" content="#ffffff" />
+              Sets the theme color for the website.
+
+JAVASCRIPT
+       The JavaScript section toggles dark mode based on user preference stored
+       in localStorage. It ensures the correct theme is applied on page load
+       and respects the user's system preferences.
+
+STYLESHEET
+       Retrieves the main stylesheet "/css/style.css", processes it with PostCSS
+       if not in Hugo server mode, and adds a link to the minified and
+       fingerprinted stylesheet with integrity attribute for caching.
+
+FILES
+       The partial template file is located at:
+              /layouts/partials/head.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions.  There is 
+       NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+       PURPOSE.
+
+head 1.0                        July 2024                                 HEAD(1)

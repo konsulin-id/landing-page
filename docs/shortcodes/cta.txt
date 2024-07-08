@@ -1,0 +1,58 @@
+CTA(1)                      General Commands Manual                     CTA(1)
+
+NAME
+       cta - generate a customizable call-to-action (CTA) button in Hugo
+
+SYNOPSIS
+       {{< cta text="Button Text" link="/target-link" >}}
+
+DESCRIPTION
+       This shortcode generates a customizable call-to-action (CTA) button.
+       You can specify the button text and the link the button should redirect
+       to when clicked.
+
+PARAMETERS
+       text
+           The text displayed on the button. (string)
+
+       link
+           The URL to navigate to when the button is clicked. (string)
+
+EXAMPLES
+       Example usage of the shortcode:
+              {{< cta text="Subscribe Now" link="/subscribe" >}}
+
+       This will generate the following HTML:
+              <button type="button" class="block px-5 py-3 text-base font-medium
+              text-gray-200 bg-gray-700 border border-transparent rounded-md
+              shadow hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-
+              white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10"
+              onclick="location.href='/subscribe'" style="width: 200px;">
+                Subscribe Now
+              </button>
+
+EXPLANATION
+       Button Text
+              The value of the text parameter is assigned to the button's text
+              content.
+
+       Button Link
+              The value of the link parameter is assigned to the onclick
+              attribute, which sets the button's behavior to navigate to the
+              specified link when clicked.
+
+       Styling
+              The button has several CSS classes applied for styling and
+              responsiveness, including hover and focus states for better user
+              interaction.
+
+FILES
+       The shortcode file is located at:
+              /layouts/shortcodes/cta.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions.  There is
+       NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR
+       PURPOSE.
+
+cta 1.0                        July 2024                                 CTA(1)

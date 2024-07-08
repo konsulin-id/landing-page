@@ -1,0 +1,51 @@
+HOME-CTA(1)                    General Commands Manual                   HOME-CTA(1)
+
+NAME
+       home-cta - generate a call-to-action section for Hugo
+
+SYNOPSIS
+       {{ partial "home-cta.html" . }}
+
+DESCRIPTION
+       This partial template creates a call-to-action (CTA) section for a Hugo
+       website's homepage. The section includes a heading, descriptive content,
+       and an email input form with a submit button. The layout is responsive
+       and styled using Tailwind CSS.
+
+PARAMETERS
+       .Site.Params.P5.Heading
+              The main heading/title of the call-to-action section.
+
+       .Site.Params.P5.Content
+              An array containing paragraphs of content explaining the 
+              call-to-action.
+
+       .Site.Params.P5.Action
+              The URL to which the form submits data.
+
+       .Site.Params.P5.Label
+              A label associated with the email input field.
+
+       .Site.Params.P5.Placeholder
+              Placeholder text displayed in the email input field.
+
+       .Site.Params.P5.Button
+              Text displayed on the submit button.
+
+EXAMPLE
+       Example usage of the partial template:
+
+       ```html
+       {{ partial "home-cta.html" . }}
+       ```
+
+FILES
+       The partial template file is located at:
+              /layouts/partials/home-cta.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions.  There is 
+       NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+       PURPOSE.
+
+home-cta 1.0                     July 2024                           HOME-CTA(1)

@@ -1,0 +1,83 @@
+HOME-PARTNERS(1)                 General Commands Manual                HOME-PARTNERS(1)
+
+NAME
+       home-partners - Hugo partial template for partners section
+
+SYNOPSIS
+       {{ partial "home-partners.html" . }}
+
+DESCRIPTION
+       This partial template is used in Hugo websites to generate the partners
+       section. It displays logos of partners along with a heading, content, and
+       links.
+
+PARTNERS SECTION
+       <div class="max-w-md px-4 mx-auto md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+         Sets up the maximum width and padding for the partners section.
+
+         <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-24">
+           Uses a grid layout for responsive design, dividing content and logos
+           into two columns.
+
+           <div class="mt-12 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
+             Iterates over partner logos to display them in a grid layout.
+
+             {{ range .Site.Params.P3.Logos }}
+             <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50 dark:bg-gray-900/10">
+               Sets up a container for each partner logo with background styling.
+
+               {{ if .image }}
+               Loads and displays the partner's logo image.
+
+               {{ $sponsor := resources.Get .image }}
+               <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert"
+                 alt="{{ .alt }}" loading="lazy" />
+               {{ else }}
+               Displays a default sample logo image if no specific logo is provided.
+
+               {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
+               <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert"
+                 alt="{{ .alt }}" loading="lazy" />
+               {{ end }}
+             </div>
+             {{ end }}
+           </div>
+           Displays partner logos in a responsive grid layout.
+
+           <div>
+             Displays heading for the partners section.
+
+             <h2 class="text-3xl font-bold tracking-tight text-primary-600 dark:text-primary-100 sm:text-4xl">
+               {{ .Site.Params.P3.Heading }}
+             </h2>
+             {{ range .Site.Params.P3.Content }}
+             Displays content associated with the partners section.
+
+             <p class="max-w-3xl mt-6 text-lg leading-7 text-gray-900 dark:text-white">
+               {{ .text }}
+             </p>
+             {{ end }}
+             {{ range .Site.Params.P3.Links }}
+             Displays links associated with the partners section.
+
+             <div class="my-6">
+               <a href="{{ .url }}" class="text-base font-medium text-primary-600 dark:text-primary-100">
+                 {{ .text }}&nbsp&rarr;
+               </a>
+             </div>
+             {{ end }}
+           </div>
+         </div>
+       </div>
+
+FILES
+       The partial template file is located at:
+              /layouts/partials/home-partners.html
+
+COPYRIGHT
+       This is free software; see the source for copying conditions.  There is 
+       NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+       PURPOSE.
+
+home-partners 1.0                July 2024                          HOME-PARTNERS(1)
+
