@@ -1,7 +1,7 @@
 <p align="center" style="padding-top:20px">
  <img width="100px" src="assets/images/global/logo.svg" align="center" alt="GitHub Readme Stats" />
  <h1 align="center">Konsulin</h1>
- <p align="center">Konsulin is a psychological kit in your pocket.</p>
+ <p align="center">Psychological kit in your pocket.</p>
 </p>
   <p align="center">
     <br>
