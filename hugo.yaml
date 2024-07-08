@@ -42,7 +42,7 @@ markup:
       wrapStandAloneImageWithinParagraph: true
     renderer:
       hardWraps: false
-      unsafe: true
+      unsafe: false
       xhtml: false
 
 params:
