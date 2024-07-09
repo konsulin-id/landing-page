@@ -1,257 +1,70 @@
 ---
-title: "Feature 2"
-date: 2021-12-18T11:10:36+08:00
+title: "Journaling kesehatan mental"
+date: 2024-07-08T11:10:36+08:00
 draft: false
 language: en
 featured_image: ../assets/images/featured/personal-growth.png
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
+summary: Journaling kesehatan mental adalah langkah kecil dengan dampak besar. Coba gratis journaling dengan Konsulin hari ini dan lihat perubahan positif dalam hidupmu.
+description: Journaling kesehatan mental adalah praktik menulis pikiran dan perasaan secara teratur untuk mengelola stres, meningkatkan kesadaran diri, dan menyelesaikan masalah. Hal ini membantu klinisi dalam menegakkan diagnosis dan menyusun terapi yang efektif. Aplikasi Konsulin menawarkan platform gratis untuk memulai journaling kesehatan mental, memfasilitasi refleksi diri yang mendalam dan penanganan yang lebih baik dari masalah emosional.
 author: TailBliss
-authorimage: ../assets/images/global/author.webp
-categories: blog
-tags: blog
----
-__Advertisement :smile:__
-
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
-
-You will like those projects!
-
----
-
-# h1 Heading :blush:
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
-
-## Horizontal Rules
-
-***
-
+authorimage: ../assets/images/global/author.png
+categories: Feature
+tags: Journaling
+keywords:
+- journaling kesehatan mental
+- self development
+- manfaat journaling
+- kesehatan emosional
+- terapi kesehatan mental
+- refleksi diri
+- mengelola stres
+- meningkatkan kesadaran diri
 ---
 
-___
+## Jadikan Hidup Lebih Baik dengan Journaling Kesehatan Mental
 
+Di era modern ini, kesadaran akan pentingnya kesehatan mental semakin meningkat. Salah satu cara yang efektif dan mudah dilakukan untuk menjaga kesehatan mental adalah dengan **journaling kesehatan mental**. Namun, apa sebenarnya journaling kesehatan mental itu, dan bagaimana kegunaannya dalam kehidupan sehari-hari?
 
-## Typographic replacements
+### Apa Itu Journaling Kesehatan Mental?
 
-Enable typographer option to see result.
+Journaling kesehatan mental adalah proses menuliskan pikiran, perasaan, dan pengalaman pribadi secara teratur. Ini bisa melibatkan berbagai aspek kehidupan sehari-hari, seperti emosi, stres, dan kebahagiaan. Journaling ini bukan hanya tentang mencatat kejadian sehari-hari, tetapi lebih tentang refleksi diri, mengidentifikasi pola pikir dan perilaku, serta mengelola emosi.
 
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+### Kegunaan Journaling Kesehatan Mental Sehari-hari
 
-test.. test... test..... test?..... test!....
+1. **Mengelola Stres dan Kecemasan**: Menulis tentang perasaan dan situasi yang menimbulkan stres dapat membantu melepaskan beban emosional. Ini juga membantu mengidentifikasi pemicu stres sehingga kamu bisa menemukan cara menghadapinya.
+2. **Meningkatkan Kesadaran Diri**: Dengan mencatat pikiran dan perasaan, kamu bisa mendapatkan wawasan lebih dalam tentang diri sendiri. Ini membantu dalam memahami pola pikir dan perilaku, serta memotivasi perubahan positif.
+3. **Mengatasi Masalah**: Journaling dapat menjadi alat yang efektif untuk memecahkan masalah. Menulis tentang masalah yang dihadapi membantu melihatnya dari perspektif berbeda dan menemukan solusi yang mungkin tidak terpikirkan sebelumnya.
+4. **Meningkatkan Kualitas Tidur**: Journaling sebelum tidur dapat membantu meredakan pikiran yang berputar-putar dan mempersiapkan pikiran untuk istirahat yang lebih nyenyak.
 
-!!!!!! ???? ,,  -- ---
+### Kapan Perlu Melakukan Journaling Kesehatan Mental?
 
-"Smartypants, double quotes" and 'single quotes'
+Tidak ada aturan baku tentang kapan harus melakukan journaling. Beberapa orang melakukannya setiap hari sebagai bagian dari rutinitas pagi atau malam. Namun, ada momen-momen tertentu yang sangat dianjurkan untuk melakukan journaling:
 
+- **Saat Mengalami Emosi Negatif**: Ketika merasa marah, sedih, atau cemas, menuliskan perasaan tersebut bisa membantu meredakan ketegangan.
+- **Setelah Mengalami Peristiwa Penting**: Menulis tentang pengalaman penting, baik positif maupun negatif, membantu dalam memproses dan memahami perasaan yang muncul.
+- **Ketika Membuat Keputusan Besar**: Journaling dapat membantu dalam menganalisis pro dan kontra dari suatu keputusan besar, serta membantu memvisualisasikan hasil yang diinginkan.
 
-## Emphasis
+### Manfaat Journaling bagi Klinik dan Terapi
 
-**This is bold text**
+Journaling tidak hanya bermanfaat bagi individu, tetapi juga sangat membantu bagi klinisi dalam menegakkan diagnosis dan menentukan terapi. Melalui catatan journaling, klinisi dapat:
 
-__This is bold text__
+- **Melihat Pola Perilaku dan Emosi**: Catatan harian memberikan gambaran yang jelas tentang perubahan emosi dan perilaku dari waktu ke waktu.
+- **Memahami Pengalaman Pasien**: Journaling membantu klinisi memahami pengalaman subjektif pasien yang mungkin tidak terungkap dalam sesi terapi biasa.
+- **Menyesuaikan Terapi**: Informasi dari journaling dapat digunakan untuk menyesuaikan pendekatan terapi sesuai dengan kebutuhan spesifik pasien.
 
-*This is italic text*
+### Journaling Menggunakan Konsulin
 
-_This is italic text_
+Kini, memulai journaling kesehatan mental lebih mudah dengan **Konsulin**. Kami ini menawarkan fitur journaling gratis yang bisa kamu gunakan kapan saja dan di mana saja. Dengan Konsulin, kamu bisa mencatat perasaan, menganalisis emosi, dan bahkan membagikannya dengan klinisi kamu untuk mendapatkan penanganan yang lebih tepat.
 
-~~Strikethrough~~
+**Mulailah perjalanan kesehatan mental kamu dengan Konsulin! Unduh aplikasinya sekarang dan rasakan manfaat journaling untuk hidup yang lebih bahagia dan seimbang.**
 
+{{< cta text="Coba sekarang" link="https://app.konsulin.care/" >}}
 
-## Blockquotes
+---
 
+#### Referensi
 
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+1. American Psychological Association. (2002). [Writing to Heal](https://www.apa.org/monitor/jun02/writing).
+1. American Psychological Association. (2024). [Expressive writing can help your mental health](https://www.apa.org/news/podcasts/speaking-of-psychology/expressive-writing).
+1. Ullrich, P. M., Lutgendorf, S. K., & Stapleton, J. T. (2003). [Journaling about stressful events: Effects of cognitive processing and emotional expression](https://link.springer.com/article/10.1207/s15324796abm2403_10).
+1. Baikie, K. A., & Wilhelm, K. (2005). [Emotional and physical health benefits of expressive writing](https://www.cambridge.org/core/journals/advances-in-psychiatric-treatment/article/emotionaland-physical-health-benefits-of-expressivewriting/ED2976A61F5DE56B46F07A1CE9EA9F9F).

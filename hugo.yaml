@@ -48,7 +48,7 @@ markup:
 params:
   author: Konsulin
   authorimage: ../assets/images/global/author.svg
-  og_image: /images/tailbliss-cover.png
+  og_image: /images/positive-thinking-wide.png
   moto: "Psychological kit in your pocket"
   description: "Buat kamu yang peduli kesehatan mental"
   long_description: "Pakai Konsulin, kesehatan mental kamu selalu dalam genggaman. Lagi kepingin curhat? Atau mau skrining kesehatan mental? Yuk, Konsulin dulu!"
@@ -58,25 +58,28 @@ params:
   disable_stay_uptodate: false
   keywords:
     - kesehatan mental
-    - tes mental
     - aplikasi kesehatan jiwa
+    - dokter psikolog
+    - dokter psikiater
+    - psikiater
+    - psikiatri
+    - konsultasi psikolog online
+    - konsultasi psikologi
+    - psikiater online
+    - psikolog online
+    - tes mental
     - cek depresi
     - cek kesehatan mental
     - cek mental
     - cek mental health
     - depresi test
-    - dokter psikolog
     - kalkulator kesehatan mental
     - kalkulator kesehatan mental health
     - kalkulator kesehatan mental online
     - kalkulator mental
     - kesehatan mental
-    - konsultasi psikolog online
-    - konsultasi psikologi
     - link tes mental health
     - mental health tes
-    - psikiater online
-    - psikolog online
     - tes depresi
     - tes depresi online
     - tes gangguan mental

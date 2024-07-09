@@ -1751,11 +1751,6 @@ video {
   padding-bottom: 24rem;
 }
 
-.py-80 {
-  padding-top: 20rem;
-  padding-bottom: 20rem;
-}
-
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -2444,10 +2439,6 @@ html {
     margin-top: 1rem;
   }
 
-  .sm\:block {
-    display: block;
-  }
-
   .sm\:flex {
     display: flex;
   }
@@ -2581,6 +2572,10 @@ html {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .md\:flex-row {

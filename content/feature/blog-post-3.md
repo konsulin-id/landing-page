@@ -1,257 +1,77 @@
 ---
-title: "Feature 3"
-date: 2021-12-18T11:10:36+08:00
+title: "Konseling kesehatan mental"
+date: 2024-07-07T11:10:36+08:00
 draft: false
 language: en
 featured_image: ../assets/images/featured/psychologist.png
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
+summary: Tingkatkan ketangguhan dan kesejahteraan diri dengan dukungan profesional. Temukan layanan kesehatan mental terbaik dengan konseling melalui Konsulin.
+description: Temukan kesehatan mental yang lebih baik melalui konseling Konsulin. Dapatkan bantuan dari profesional untuk mengelola stres, mengatasi kecemasan, dan membangun ketangguhan. Konseling tidak hanya membantu dalam kondisi psikologis berat tetapi juga dalam mengatasi tantangan sehari-hari. Dengan akses mudah, Konsulin menyediakan lingkungan aman untuk mengungkapkan perasaan tanpa takut dihakimi. Jadwalkan sesi pertama dan mulai perjalanan menuju keseimbangan dan kebahagiaan hari ini.
 author: Konsulin
-authorimage: ../assets/images/global/author.webp
-categories: blog
-tags: blog
+authorimage: ../assets/images/global/author.png
+categories: features
+tags: Konseling
+keywords:
+- kesehatan mental
+- aplikasi kesehatan jiwa
+- dokter psikolog
+- dokter psikiater
+- psikiater
+- psikiatri
+- konsultasi psikolog online
+- konsultasi psikologi
+- psikiater online
+- psikolog online
+- Konseling kesehatan mental
+- Kesejahteraan pribadi
+- Ketangguhan mental
+- Kesehatan jiwa
+- Konsultan kesehatan mental
+- Bantuan psikologis
+- Terapi psikologis
+- Pengelolaan stres
+- Mengatasi kecemasan
+- Dukungan emosional
+- Kesehatan mental positif
+- Konseling online
+- Psikoterapi
+- Keseimbangan hidup
+- Bimbingan mental
+- Membangun kepercayaan diri
+- Lingkungan terapeutik
+- Pemulihan kesehatan jiwa
 ---
-__Advertisement :smile:__
 
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
+## Kesehatan Mental yang Lebih Baik dengan Konseling
 
-You will like those projects!
+Kesehatan mental merupakan keadaan yang penting untuk kesejahteraan pribadi yang optimal. Konseling kesehatan mental adalah proses di mana kamu bisa berbicara dengan seorang profesional terlatih untuk mendapatkan dukungan, wawasan, dan strategi yang kamu butuhkan untuk mengatasi masalah atau tantangan yang sedang kamu hadapi dalam hidup. Konseling kesehatan mental tidak hanya untuk mereka yang mengalami kondisi psikologis yang parah, tetapi juga untuk siapa saja yang merasa perlu mendapatkan bantuan dalam mengelola stres, meningkatkan hubungan interpersonal, mengatasi kecemasan, atau meraih potensi penuh mereka. Ini adalah tempat aman di mana kamu bisa mengungkapkan pikiran dan perasaanmu tanpa takut dihakimi.
+
+### Kapan Konseling Perlu Dilakukan?
+
+Pertimbangkan untuk mencari bantuan jika kamu merasa sulit untuk mengatasi perasaan yang terus-menerus seperti sedih, cemas, atau marah yang mengganggu kehidupan sehari-harimu. Jika perubahan suasana hati, kebiasaan tidur, atau perilaku yang berhubungan dengan emosi berlangsung lama dan mengganggu, konseling bisa menjadi pilihan yang tepat.
+
+### Konseling untuk Meningkatkan Resiliensi
+
+Salah satu manfaat utama dari konseling kesehatan mental adalah kemampuannya untuk meningkatkan ketangguhan (resiliensi) kamu. Ketangguhan adalah kemampuan untuk pulih dan berkembang setelah mengalami tantangan, stres, atau kesulitan dalam hidup. Dengan bantuan seorang konselor yang berpengalaman, kamu dapat belajar strategi baru untuk mengatasi kesulitan, membangun keyakinan diri, dan mengembangkan keterampilan untuk menghadapi masa depan dengan lebih positif.
+
+### Lakukan Konseling Melalui Konsulin
+
+Jangan ragu untuk memulai perjalanan menuju kesehatan mental yang lebih baik hari ini. Temukan kualitas hidup yang lebih baik dengan konseling kesehatan mental di Konsulin. Jadwalkan sesi konseling gratis pertamamu hari ini dan mulailah langkah pertama menuju keseimbangan dan kebahagiaan.
+
+**Mengapa Memilih Konsulin?**
+- Akses mudah dan gratis ke konseling kesehatan mental.
+- Profesional terlatih dan peduli.
+- Dukungan tanpa penilaian.
+- Membantu kamu membangun ketangguhan dan kesejahteraan pribadi.
+
+Jangan biarkan tantangan hidup menghalangi kebahagiaanmu. Temukan bantuan yang kamu butuhkan dengan Konsulin hari ini!
+
+{{< cta text="Coba sekarang" link="https://app.konsulin.care/" >}}
 
 ---
 
-# h1 Heading :blush:
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
-
-## Horizontal Rules
-
-***
-
----
-
-___
-
-
-## Typographic replacements
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-
-## Emphasis
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
-
-
-## Blockquotes
-
-
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+#### Referensi
+
+1. American Psychological Association. (2023). [Understanding Psychotherapy and How It Works](https://www.apa.org/topics/psychotherapy/understanding).
+1. Mental Health America. (2024). [Finding Help: When to Get It and Where to Go](https://www.mhanational.org/finding-help-when-get-it-and-where-go).
+1. American Counseling Association. (2024). [What Is Counseling?](https://www.counseling.org/mental-health-counseling/what-is-counseling).
+1. Mayo Clinic. (2024). [Resilience: Build skills to endure hardship](https://www.mayoclinic.org/tests-procedures/resilience-training/in-depth/resilience/art-20046311).
