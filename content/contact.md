@@ -3,6 +3,7 @@ title: Hubungi Kami
 date: 2021-12-18T03:10:36.000Z
 draft: false
 language: en
+featured_image: ../assets/images/pages/contact-us.png
 description: Hubungi tim konsulin
 keywords:
 - kontak Konsulin

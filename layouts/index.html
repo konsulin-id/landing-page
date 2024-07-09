@@ -1,5 +1,9 @@
 {{ define "main" }}
 <main>
+
+  <link rel="stylesheet" href="{{ "css/carousel.css" | relURL }}">
+  <script src="{{ "js/carousel.js" | relURL }}"></script>
+
   <!-- Main content here -->
   {{ partial "home-header.html" . }}
 
@@ -12,12 +16,10 @@
   <!-- Partners section -->
   {{ partial "home-partners.html" . }}
 
-  <!-- Blog section -->
-  {{ partial "home-blog.html" . }}
-
-  {{ if not .Site.Params.Disable_stay_uptodate}}
   <!-- CTA section -->
+  {{ if not .Site.Params.Disable_stay_uptodate}}
   {{ partial "home-cta.html" . }}
   {{ end }}
+
 </main>
 {{ end }}

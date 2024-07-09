@@ -50,8 +50,8 @@ params:
   authorimage: ../assets/images/global/author.svg
   og_image: /images/tailbliss-cover.png
   moto: "Psychological kit in your pocket"
-  description: "Buat kamu yang peduli dengan kesehatan mental"
-  long_description: "Pakai Konsulin, kesehatan mental kamu selalu dalam genggaman. Lagi kepingin curhat? Atau perlu skrining kesehatan mental? Yuk, Konsulin dulu!"
+  description: "Buat kamu yang peduli kesehatan mental"
+  long_description: "Pakai Konsulin, kesehatan mental kamu selalu dalam genggaman. Lagi kepingin curhat? Atau mau skrining kesehatan mental? Yuk, Konsulin dulu!"
   button: "Coba sekarang"
   forward: "https://app.konsulin.care/"
   disable_theme_toggle: false
@@ -103,8 +103,8 @@ params:
       - text: "Untuk mewujudkan mimpi tersebut, Konsulin berdiri sebagai platform kolaborasi antara masyarakat, klinisi, dan akademisi. Dengan Konsulin, kamu dapat mencatat jurnal psikologi harian, melakukan tes kesehatan mental yang hasilnya dipandu oleh psikolog profesional, dan mendapatkan dukungan yang kamu butuhkan."
       - text: ""
   p2:
-    heading: "Kenapa membuat Konsulin?"
-    image: "images/pages/hacktoberfest.jpg"
+    heading: "Kenapa mendirikan Konsulin?"
+    image: "images/pages/pricing-plans.png"
     button: "Layanan premium"
     forward: "pricing"
     content:
@@ -133,11 +133,11 @@ params:
   p5:
     heading: "Stay Up to Date"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
+      - text: "Mau update terbaru dari Konsulin? Silakan masukkan alamat email kamu ya!"
     action: "https://formsubmit.co/1ce5a3c4a13420eab3f929d03891849a"
     label: "Email address"
-    placeholder: "Enter your email"
-    button: "Notify me"
+    placeholder: "Masukkan alamat email kamu"
+    button: "Kabari aku"
 
   social_media:
     github:

@@ -7,22 +7,27 @@
       </h1>
     </span>
   </header>
-  <div class="max-w-4xl mx-auto mt-8 mb-2">
+  <div class="max-w-xl mx-auto">
     <div class="px-6">
-      {{ with .Params.featured_image }} {{ with resources.Get . }} {{ $small := (.Resize "400x webp q80").RelPermalink }} {{ $medium := (.Resize "550x webp q80").RelPermalink }} {{ $large := (.Resize "900x webp q80").RelPermalink }} {{
-      $featuredimage := (.Resize "1500x webp q80").RelPermalink }}
-      <img
-        src="{{ $featuredimage }}"
-        srcset="
-        {{- with $small -}}, {{.}} 400w{{- end -}}
-        {{- with $medium -}}, {{.}} 550w{{- end -}}
-        {{- with $large -}}, {{.}} 768w{{- end -}}
-        {{- with $featuredimage -}}, {{.}} 1100w{{- end -}}"
-        class="object-fill overflow-hidden rounded-lg shadow-lg ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40"
-        width="100%"
-        alt="{{ .Params.title }}"
-      />
-      {{ end }} {{ end }}
+      {{ with .Params.featured_image }}
+        {{ with resources.Get . }}
+          {{ $small := (.Resize "300x webp q80").RelPermalink }} <!-- Adjusted resize to 300 pixels wide -->
+          {{ $medium := (.Resize "450x webp q80").RelPermalink }} <!-- Adjusted resize to 450 pixels wide -->
+          {{ $large := (.Resize "600x webp q80").RelPermalink }} <!-- Adjusted resize to 600 pixels wide -->
+          {{ $featuredimage := (.Resize "800x webp q80").RelPermalink }} <!-- Adjusted resize to 800 pixels wide -->
+          <img
+            src="{{ $featuredimage }}"
+            srcset="
+            {{- with $small -}}, {{.}} 300w{{- end -}}
+            {{- with $medium -}}, {{.}} 450w{{- end -}}
+            {{- with $large -}}, {{.}} 600w{{- end -}}
+            {{- with $featuredimage -}}, {{.}} 800w{{- end -}}"
+            class="object-fill overflow-hidden rounded-lg shadow-lg ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40"
+            width="100%"
+            alt="{{ .Params.title }}"
+          />
+        {{ end }}
+      {{ end }}
     </div>
   </div>
 
@@ -42,7 +47,7 @@
               type="email"
               name="email"
               class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light"
-              placeholder="name@example.com"
+              placeholder="Masukkan alamat email kamu"
               required
             />
           </div>
@@ -62,7 +67,7 @@
               type="submit"
               class="px-5 py-3 font-bold text-center text-white bg-indigo-600 rounded-lg text-md sm:w-fit hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
             >
-              Send Message
+              Kirim pesan
             </button>
           </div>
 
