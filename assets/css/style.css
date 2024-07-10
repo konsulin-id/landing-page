@@ -2278,6 +2278,11 @@ html {
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
 
+.dark\:bg-primary-300:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(81 241 246 / var(--tw-bg-opacity));
+}
+
 .dark\:text-gray-100:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(229 233 240 / var(--tw-text-opacity));
@@ -2366,6 +2371,11 @@ html {
   background-color: rgb(67 56 202 / var(--tw-bg-opacity));
 }
 
+.dark\:hover\:bg-primary-400:hover:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 237 244 / var(--tw-bg-opacity));
+}
+
 .dark\:hover\:text-primary-500:hover:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(12 226 234 / var(--tw-text-opacity));
@@ -2394,6 +2404,11 @@ html {
 .dark\:focus\:ring-primary-900:focus:is(.dark *) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(3 48 49 / var(--tw-ring-opacity));
+}
+
+.dark\:focus\:ring-primary-800:focus:is(.dark *) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(5 99 103 / var(--tw-ring-opacity));
 }
 
 .group:hover .dark\:group-hover\:text-primary-300:is(.dark *) {
