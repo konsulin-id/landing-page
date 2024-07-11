@@ -4,7 +4,7 @@ description: Mengintegrasikan journaling ke dalam rutinitas harianmu bisa member
 author: Konsulin
 authorimage: ../assets/images/global/author.png
 featured_image: ../assets/images/featured/featured-img-placeholder.png
-title: "Jadikan Journaling Rutinitas Harian"
+title: "Jadikan Journaling Rutinitas Harianmu"
 date: 2024-07-11T16:34:09+02:00
 categories: Feature
 tags: Journaling
@@ -38,7 +38,7 @@ keywords:
 
 ### Mulailah dengan Langkah Kecil
 
-Agar journaling menjadi kebiasaan, [mulailah dengan langkah kecil]({{< ref "blog/memulai-journaling.md" >}}). [Tentukan waktu]({{< ref "blog/memilih-waktu-journaling.md" >}}) yang tetap setiap hari untuk menulis jurnal. Misalnya, bisa dilakukan sebelum tidur atau saat sarapan. Dengan menetapkan waktu yang tetap, kamu akan lebih mudah mengintegrasikannya ke dalam [rutinitas]({{< ref "blog/konsisten-dalam-journaling.md" >}})() harianmu.
+Agar journaling menjadi kebiasaan, [mulailah dengan langkah kecil]({{< ref "blog/memulai-journaling.md" >}}). Tentukan waktu yang tetap setiap hari untuk menulis jurnal. Misalnya, bisa dilakukan sebelum tidur atau saat sarapan. Dengan menetapkan waktu yang tetap, kamu akan lebih mudah mengintegrasikannya ke dalam [rutinitas]({{< ref "blog/konsisten-dalam-journaling.md" >}}) harianmu.
 
 ### Journaling Sebelum Tidur
 
@@ -58,7 +58,7 @@ Jika kamu lebih suka memulai hari dengan menulis, cobalah journaling saat sarapa
 
 ### Jadikan Journaling Bagian dari Rutinitasmu!
 
-Mengintegrasikan journaling ke dalam rutinitas harianmu mungkin memerlukan waktu dan penyesuaian. Namun, dengan konsistensi dan kesabaran, kamu akan merasakan [manfaatnya]({{< ref "blog/manfaat-journaling.md" >}}). Mulailah dengan langkah kecil, tentukan waktu yang tepat, dan buatlah journaling menjadi momen yang menyenangkan dalam harimu.
+Mengintegrasikan journaling ke dalam rutinitas harianmu mungkin memerlukan waktu dan penyesuaian. Namun, dengan konsistensi dan kesabaran, kamu akan merasakan [manfaatnya]({{< ref "blog/manfaat-journaling.md" >}}). Mulailah dengan langkah kecil, [tentukan waktu]({{< ref "blog/memilih-waktu-journaling.md" >}}) yang tepat, dan buatlah journaling menjadi momen yang menyenangkan dalam harimu.
 
 Selamat mencoba, dan jadikan journaling bagian dari rutinitasmu!
 
