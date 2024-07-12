@@ -1,242 +1,41 @@
 ---
+author: Konsulin
+authorimage: ../assets/images/global/author.png
+summary: Konsulin adalah platform kesehatan digital yang mengintegrasikan rekam medis, tes psikometri, dan jurnal pribadi untuk kesejahteraan mentalmu.
+description: Selamat datang di Konsulin, platform kesehatan digital yang mengintegrasikan rekam medis, tes psikometri, jurnal pribadi, dan sistem ahli untuk meningkatkan kesejahteraan mental. Konsulin membantu klinisi dalam pengambilan keputusan dengan memberikan saran cerdas berdasarkan masukan dari pengguna. Pengguna dapat mengakses berbagai fitur seperti dasbor pengguna, pusat penilaian, jurnal pribadi, dan latihan self-compassion. Desain Konsulin yang minimalis dan ramah pengguna membuat perawatan kesehatan mental lebih mudah diakses. Bergabunglah dengan Konsulin untuk mengambil alih kesehatan mentalmu dan rasakan dukungan yang personal dan efektif.
 title: "About"
-date: 2021-12-18T11:10:36+08:00
+date: 2024-07-12T11:10:36+08:00
 draft: false
 language: en
-description: About Us
 featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
 
-# h1 Heading :blush:
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+## Tentang Kami
 
+Selamat datang di Konsulin, platform kesehatan digital yang hadir untuk meningkatkan kesejahteraan mentalmu. Di Konsulin, kami mengintegrasikan rekam medis, tes psikometri, jurnal pribadi, dan sistem ahli untuk memberikan pendekatan yang menyeluruh dalam perawatan kesehatan mental.
 
-## Horizontal Rules
+### Misi Kami
 
-***
+Konsulin berkomitmen untuk meningkatkan kualitas perawatan melalui sistem ahli yang canggih. Sistem ini membantu meringankan beban pengambilan keputusan bagi para klinisi dengan memberikan saran cerdas berdasarkan masukan dari pengguna, memastikan setiap orang mendapatkan perawatan yang personal dan efektif.
 
----
+### Apa yang Kami Tawarkan
 
-___
+**Untuk Pengguna:**
+- **Dasbor Pengguna:** Dapatkan wawasan tentang kesehatan mentalmu dengan visualisasi intuitif, seperti diagram donat yang menggambarkan berbagai masalah kesehatan mental.
+- **Pusat Penilaian:** Akses dan selesaikan berbagai tes psikometri yang dirancang untuk memahami keadaan mentalmu dengan lebih baik.
+- **Jurnal Pribadi:** Catat pikiran dan pengalamanmu dalam jurnal yang aman, yang bisa ditinjau oleh klinisi untuk memberikan perawatan yang lebih baik.
+- **Latihan Self-Compassion:** Ikuti latihan audio yang dipandu untuk meningkatkan self-compassion dan relaksasi.
 
+**Untuk Klinisi:**
+- **Manajemen Sesi yang Efisien:** Jadwalkan dan kelola sesi dengan mudah dengan gambaran lengkap tentang pengguna dan riwayat mereka.
+- **Alat Penilaian Lanjutan:** Gunakan berbagai instrumen psikometri untuk mengumpulkan data dan wawasan yang akurat.
+- **Catatan SOAP:** Catat catatan terstruktur dan detail untuk melacak kemajuan pengguna dan membuat keputusan yang tepat.
+- **Latihan Self-Compassion:** Berikan pengguna QR code untuk mengakses latihan self-compassion, mendukung kesejahteraan mereka di antara sesi.
 
-## Typographic replacements
+### Filosofi Desain Kami
 
-Enable typographer option to see result.
+Desain Konsulin terinspirasi oleh kesederhanaan dan fungsionalitas. Dengan estetika minimalis dan palet warna yang lembut dan hangat, antarmuka kami ramah pengguna dan menenangkan. Kami berusaha menciptakan lingkungan digital yang terasa personal dan mendukung, membuat perawatan kesehatan mental menjadi lebih mudah diakses oleh semua orang.
 
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+### Bergabunglah Bersama Kami
 
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-
-## Emphasis
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
-
-
-## Blockquotes
-
-
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+Apakah kamu seorang pengguna yang ingin memiliki kontrol atas kesehatan mentalmu atau klinisi yang mencari alat digital yang efisien, Konsulin hadir untuk mendukungmu. Bersama-sama, kami percaya kita membangun komunitas yang lebih sehat dan bahagia. Coba Konsulin hari ini dan rasakan era baru kesejahteraan mental.
