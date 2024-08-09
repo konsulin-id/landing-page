@@ -62,6 +62,8 @@ Jika kamu merasa journaling belum cukup, dan kamu butuh bantuan lebih lanjut unt
 
 Kelola stresmu dengan bijak, mulai dari journaling hingga mendapatkan bantuan yang tepat. Dengan Konsulin, kesehatan mentalmu menjadi prioritas. Jadi, tunggu apa lagi? Yuk, mulai journaling dan jangan ragu untuk mencari dukungan dari Konsulin!
 
+{{< cta text="Mulai journaling" link="https://app.konsulin.care/" >}}
+
 ---
 
 #### Referensi

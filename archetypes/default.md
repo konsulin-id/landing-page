@@ -10,3 +10,9 @@ keywords:
 - journaling kesehatan mental
 ---
 
+{{< cta text="Mulai journaling" link="https://app.konsulin.care/" >}}
+
+---
+
+#### Referensi
+
