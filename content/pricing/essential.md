@@ -9,7 +9,7 @@ title: "Essential"
 date: 2024-07-12T11:10:36+08:00
 draft: false
 language: en
-featured_image: ../assets/images/featured/featured-img-placeholder.png
+featured_image: ../assets/images/featured/pricing-essential.png
 author: Konsulin
 authorimage: ../assets/images/global/author.png
 ---
