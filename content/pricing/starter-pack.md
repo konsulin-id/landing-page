@@ -9,7 +9,7 @@ title: "Starter Pack"
 date: 2024-07-12T10:10:36+08:00
 draft: false
 language: en
-featured_image: ../assets/images/featured/pricing-starter-pack.png
+featured_image: ../assets/images/pages/pricing-starter-pack.png
 author: Konsulin
 authorimage: ../assets/images/global/author.png
 ---
