@@ -6,7 +6,8 @@ enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
 canonifyURLs: true
-paginate: 3
+pagination:
+  pagerSize: 3
 darkmode_js:
   - assets/js/darkmode.js
 enableInlineShortcodes: true
